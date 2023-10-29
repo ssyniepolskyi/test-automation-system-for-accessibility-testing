@@ -1,0 +1,19 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.17.2",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "accessibility-testing-module-playwright-poc": "^1.0.1"
+  }
+}
